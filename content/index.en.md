@@ -31,7 +31,7 @@ title: ""
 
 - Programming languages: C++/C#, Python  
 - Application development: Backend, desktop solutions  
-- Tools: Cascader, Blender
+- Tools: Cascadeur, Unity, Blender
 
 ## Soft Skills
 
