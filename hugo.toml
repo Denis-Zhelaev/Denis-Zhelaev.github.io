@@ -1,0 +1,40 @@
+baseURL = "https://Denis-Zhelaev.github.io/"
+title = "CV Denis Zhelaev"
+theme = "PaperMod"
+defaultContentLanguage = "ru"
+
+enableRobotsTXT = true
+
+[languages]
+
+  [languages.ru]
+    languageName = "Русский"
+    languageCode = "ru"
+    weight = 1
+    [languages.ru.params.homeInfoParams]
+      Title = "Свяжитесь со мной"
+      Content = "Телефон: +7-917-717-26-03"
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 2
+    [languages.en.params.homeInfoParams]
+      Title = "Contact Me"
+      Content = "Phone: +7-917-717-26-03"
+
+[params]
+  [[params.socialIcons]]
+    name  = "github"
+    url   = "https://github.com/Denis-Zhelaev"
+    title = "GitHub"
+
+  [[params.socialIcons]]
+    name  = "telegram"
+    url   = "https://t.me/agdezia"
+    title = "Telegram"
+
+  [[params.socialIcons]]
+    name  = "envelope"
+    url   = "mailto:redruoffice@gmail.com"
+    title = "Email"
