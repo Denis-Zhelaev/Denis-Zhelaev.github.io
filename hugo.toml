@@ -13,8 +13,7 @@ enableRobotsTXT = true
     weight = 1
     [languages.ru.params.homeInfoParams]
       Title = "Свяжитесь со мной"
-      Content = "Телефон: +7-917-717-26-03
-      Email: red.ru.office@gmail.com"
+      Content = "Телефон: +7-917-717-26-03 <br> Email: red.ru.office@gmail.com"
 
   [languages.en]
     languageName = "English"
@@ -22,8 +21,7 @@ enableRobotsTXT = true
     weight = 2
     [languages.en.params.homeInfoParams]
       Title = "Contact Me"
-      Content = "Phone: +7-917-717-26-03
-      Email: red.ru.office@gmail.com"
+      Content = "Phone: +7-917-717-26-03 <br> Email: red.ru.office@gmail.com"
 
 [params]
   [[params.socialIcons]]
@@ -35,3 +33,8 @@ enableRobotsTXT = true
     name  = "telegram"
     url   = "https://t.me/agdezia"
     title = "Telegram"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
